@@ -53,6 +53,7 @@ h1{
     display: flex;
     flex-direction: row;
     margin: 50px;
+    margin-top: 0px;
 }
 .content-left, .content-right{
     display: flex;
@@ -77,4 +78,61 @@ img{
     font-size: 16px;
     cursor: pointer;
     background-color: rgb(0, 119, 255);
+    border-radius: 8px;
+}
+
+.second-section{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-blue-divs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.box-blue{
+    border: 2px solid rgb(0, 119, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    
+}
+
+.p-second{
+    font-size: 13px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 23px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+h3{
+    font-size: 23px;
+    margin-left: 300px;
 }
